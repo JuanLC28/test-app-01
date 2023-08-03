@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+.contenedor {
+    width: 80%;
+    margin: 50px auto;
+    padding: 50px 100px;
+    background-color: #FFFAAD;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.cuadradro__rojo, .cuadradro__azul, .cuadradro__verde, .cuadradro__blanco, .cuadradro__negro {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #C2E;
+}
+
+.cuadradro__rojo {
+    background-color: #F00;
+}
+
+.cuadradro__azul {
+    background-color: #00F;
+}
+
+.cuadradro__verde {
+    background-color: #0F0;
+}
+
+.cuadradro__blanco {
+    background-color: #FFF;
+}
+
+.cuadradro__negro {
+    background-color: #000;
+}
